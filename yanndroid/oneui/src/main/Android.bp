@@ -1,0 +1,17 @@
+android_library {
+    name: "de.yanndroid.oneui",
+
+    sdk_version: "current",
+    srcs: [
+    	"java/*/**/*.java",
+    ],
+    static_libs: [
+    	"androidx.appcompat_appcompat",
+    	"com.google.android.material_material",
+    ],
+    optimize: {
+        proguard_flags_files: ["rules.pro"],
+    },
+}
+
+
